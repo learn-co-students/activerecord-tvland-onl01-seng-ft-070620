@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 7) do
     t.string "name"
     t.integer "network_id"
     t.string "day"
-    t.integer "genre_id"
+    t.string "genre"
     t.string "season"
   end
 
